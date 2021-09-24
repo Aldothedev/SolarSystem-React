@@ -1,74 +1,82 @@
-# Solar System React App
+# Frontend Mentor - Planets fact site solution
 
-### See The Live Site : [Solar System App](https://aldothedev.github.io/SolarSystem-React/).  
+This is a solution to the [Planets fact site challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/planets-fact-site-gazqN8w_f). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Getting Started with Create React App
+## Table of contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+### The challenge
 
-### `npm start`
+Users should be able to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- View each planet page and toggle between "Overview", "Internal Structure", and "Surface Geology"
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Screenshot
 
-### `npm test`
+![mobile preview](./images/mobile.png)
+![tablet preview](./images/tablet.png)
+![desktop preview](./images/desktop.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Links
 
-### `npm run build`
+- Live Site URL: [Add live site URL here](https://chamumutezva.github.io/planets-fact-site/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## My process
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built with
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Semantic HTML5 markup
+- sass custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [parceljs](https://parceljs.org/) - sass compiler and bundler
+- [gsap](https://greensock.com/get-started/) - animation library
 
-### `npm run eject`
+### What I learned
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- themes , applying different colours to the separate pages using sass.
+[themes](https://www.sitepoint.com/dealing-color-schemes-sass/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- animation, using the gsap library.
+  - First , i tried using the import statement in the js file but did not work as that needs a compiler to use the es6 features in the browser.
+  - i then used the cdn link by placing it in the body of the html file, just above the closing body tag. It is also important to place the cdn link above the js file to avoid `gsap undefined errors`
+  - [Tabbed intefaces](https://inclusive-components.design/tabbed-interfaces/) . This was a major topic that i picked up in this challenge. The challenge includes 3 buttons like such that when clicked - they give related information in a separate panel. My first option was to use radio buttons but the above article gave a new dimension on how to handle the challenge.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Continued development
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- improving the accessibility of the site.
+- improving tab control.
 
-## Learn More
+### Useful resources
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Tabbed intefaces](https://inclusive-components.design/tabbed-interfaces/)
+- [themes](https://www.sitepoint.com/dealing-color-schemes-sass/)
+- [gsap](https://greensock.com/get-started/)
+- [navigation menu button example](https://www.w3.org/TR/wai-aria-practices/examples/menu-button/menu-button-links.html)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
+- [Chamu Mutezva](https://github.com/ChamuMutezva)
+- Frontend Mentor - [@ChamuMutezva](https://www.frontendmentor.io/profile/ChamuMutezva)
+- Twitter - [@ChamuMutezva](https://twitter.com/ChamuMutezva)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Acknowledgments
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Many thanks to Matt and the Frontend Mentor community at large.
+Frontend Mentor users @Grace (Grace Snow)
