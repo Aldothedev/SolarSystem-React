@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Solar System React App
+
+## See The Live Site : [Solar System App](https://aldothedev.github.io/SolarSystem-React/).  
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
