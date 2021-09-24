@@ -2,43 +2,6 @@
 
 ### See The Live Site [Solar System App](https://aldothedev.github.io/SolarSystem-React/)
 
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-## Overview
-
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- View each planet page and toggle between "Overview", "Internal Structure", and "Surface Geology"
-
-### Screenshot
-
-![mobile preview](./images/mobile.png)
-![tablet preview](./images/tablet.png)
-![desktop preview](./images/desktop.png)
-
-### Links
-
-- Live Site URL: [Add live site URL here](https://chamumutezva.github.io/planets-fact-site/)
-
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -70,14 +33,3 @@ Users should be able to:
 - [themes](https://www.sitepoint.com/dealing-color-schemes-sass/)
 - [gsap](https://greensock.com/get-started/)
 - [navigation menu button example](https://www.w3.org/TR/wai-aria-practices/examples/menu-button/menu-button-links.html)
-
-## Author
-
-- [Chamu Mutezva](https://github.com/ChamuMutezva)
-- Frontend Mentor - [@ChamuMutezva](https://www.frontendmentor.io/profile/ChamuMutezva)
-- Twitter - [@ChamuMutezva](https://twitter.com/ChamuMutezva)
-
-## Acknowledgments
-
-Many thanks to Matt and the Frontend Mentor community at large.
-Frontend Mentor users @Grace (Grace Snow)
