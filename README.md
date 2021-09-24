@@ -1,6 +1,6 @@
 # Solar System React App
 
-## See The Live Site : [Solar System App](https://aldothedev.github.io/SolarSystem-React/).  
+### See The Live Site : [Solar System App](https://aldothedev.github.io/SolarSystem-React/).  
 
 ## Getting Started with Create React App
 
