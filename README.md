@@ -1,6 +1,7 @@
-# Frontend Mentor - Planets fact site solution
+# Solar System App- React.js
 
-This is a solution to the [Planets fact site challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/planets-fact-site-gazqN8w_f). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+### See The Live Site [Solar System App](https://aldothedev.github.io/SolarSystem-React/)
+
 
 ## Table of contents
 
